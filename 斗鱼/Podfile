@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+
+use_frameworks!
+
+target '斗鱼' do
+
+# 网络请求框架
+pod 'Alamofire'
+# 图片加载框架
+pod 'Kingfisher'
+# 菜单框架 - https://github.com/monoqlo/ExpandingMenu
+pod 'ExpandingMenu'
+end
